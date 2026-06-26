@@ -26,5 +26,5 @@ This folder contains TypeScript examples for learning Classes and Objects.
 
 ## Files
 
-* ClassesOrObjects.ts
-* ClassesOrObjects.js
+* app.ts
+* app.js
