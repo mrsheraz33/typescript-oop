@@ -4,11 +4,11 @@ This folder contains TypeScript examples for learning Polymorphism.
 
 ## Topics Covered
 
-* Polymorphism
-* Method Overriding
 * Runtime Polymorphism
+* Compile-time Polymorphism
+* Method Overriding
+* Method Overloading
 * Inheritance
-* Dynamic Method Dispatch
 
 ## Examples
 
@@ -17,21 +17,17 @@ This folder contains TypeScript examples for learning Polymorphism.
 * Create a base class
 * Define a common `makeSound()` method
 
-### Dog Class
+### Dog & Cat Classes
 
 * Extend the `Animal` class
 * Override the `makeSound()` method
+* Demonstrate Runtime Polymorphism
 
-### Cat Class
+### Logger Class
 
-* Extend the `Animal` class
-* Override the `makeSound()` method
-
-### Runtime Polymorphism
-
-* Store different objects in an `Animal[]` array
-* Call the same method on different objects
-* Execute different implementations at runtime
+* Demonstrate Method Overloading
+* Log both string and number values
+* Show Compile-time Polymorphism in TypeScript
 
 ## Files
 

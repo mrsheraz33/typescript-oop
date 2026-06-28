@@ -37,4 +37,24 @@ myPet.forEach((pet) => {
   pet.makeSound();
 });
 
+// METHOD OVERLOADING (Compile-time)
+
+class Logger {
+  log(message: string): void;
+  log(num: number): void;
+
+  public log(val: any): void {
+    if (typeof val === "string") {
+      console.log(`${val}`);
+    } else if (typeof val === "number") {
+      console.log(`${val}`);
+    }
+  }
+}
+
+// creating an object
+const logger = new Logger();
+logger.log("Hello, Everyone!");
+logger.log(2223);
+
 export {};
