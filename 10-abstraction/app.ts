@@ -18,7 +18,7 @@ abstract class CoffeeMachine {
   makeCoffee(): void {
     console.log("Starting Coffee Preparation");
     this.boilWater();
- 
+    this.grindBeans();
     this.extractCoffee();
   }
 }
